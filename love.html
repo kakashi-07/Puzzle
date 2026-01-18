@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Nishkala ❤️</title>
+  <link rel="stylesheet" href="romance.css">
+</head>
+<body>
+
+<!-- 🔐 PASSWORD SCREEN -->
+<div id="lockScreen" class="lock-screen">
+  <h2>💘 Cupid’s Lock 💘</h2>
+  <input type="password" id="passwordInput" placeholder="My fav Name? is the pass">
+  <button onclick="unlockGame()">Unlock</button>
+  <p id="errorMsg"></p>
+</div>
+
+<!-- 🎮 GAME CONTENT -->
+<div id="gameContent" style="display:none;">
+
+  <h1 class="title">Piece by Piece 💖</h1>
+
+  <div class="layout">
+
+    <!-- 🖼️ PREVIEW -->
+    <div class="preview">
+      <p>Reference 💗</p>
+      <img src="https://www.dropbox.com/scl/fi/mnv8my1mslchjaoqfjzh9/oo.png?rlkey=j3h3oznj0u1gystzi9wtbm3vo&st=4kz6r18x&dl=1" alt="Preview">
+    </div>
+
+    <!-- 🧩 PUZZLE -->
+    <div class="game-wrapper">
+      <div id="board" class="board"></div>
+      <div id="pieces" class="pieces"></div>
+    </div>
+
+  </div>
+
+  <div id="message" class="final-message">
+    <h2>Finalllyyyyyyy!!!!!  U completed my Puzzle!!!  ❤️</h2>
+  </div>
+
+</div>
+
+<!-- 🎵 MUSIC -->
+<audio id="bgm" loop>
+  <source src="https://www.dropbox.com/scl/fi/78540v1xg6k92cchv5bd9/I-Think-They-Call-This-Love-Cover-Matthew-Ifield.mp3?rlkey=eym8w7oezq4mnin432tlomsgv&st=lr3jn8hg&dl=1" type="audio/mpeg">
+</audio>
+
+<script src="magic.js" defer></script>
+
+</body>
+</html>
